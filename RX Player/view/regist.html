@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RX Player</title>
+
+    <link rel="shortcut icon" type="image/png" href="../assets/img/favIcon.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style-regist.css">
+    <link rel="stylesheet" href="../assets/css/style-mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="../assets/js/function.js"></script>
+</head>
+
+<header>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i>&#9776;</i>
+        </label>
+        <a class="activeLogo navLogo" href="homepage.html"><img class="logo" src="../assets/img/whiteLogo.png"></a>
+        <a class="inactiveLogo navLogo" href="homepage.html"><img class="logo" src="../assets/img/favIcon.png"></a>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="top10.html">Top 10</a></li>
+            <li><a href="genre.html">Genre</a></li>
+            <li><a href="plans.html">Plans</a></li>
+            <li><a class="active" href="regist.html">Register</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body class="bodyRegis">
+    <div class="container register">
+        <div class="wrapper">
+            <div class="title">Sign Up</div>
+            <form action="" method="POST">
+                <div class="form">
+                    <div class="input_field">
+                        <label for="name">Full Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your name ...">
+                    </div>
+                    <div class="input_field">
+                        <label for="gender">Gender</label>
+                        <div class="custom_select">
+                            <select name="gender" id="select-gender">
+                                <option value="select">Select your gender ...</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input_field">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="text" placeholder="Your email ...">
+                    </div>
+                    <div class="input_field">
+                        <label for="password">Password</label>
+                        <input id="password" name="password" type="password" placeholder="Your password ...">
+                    </div>
+                    <div class="input_field">
+                        <label for="cpassword">Confirm Password</label>
+                        <input id="cpassword" name="cpassword" type="password" placeholder="Confirm password ...">
+                    </div>
+                    <div class="input_field">
+                        <label for="gender">Payment Method</label>
+                        <div class="custom_select">
+                            <select name="payment" id="select-payment">
+                                <option value="select">Select your payment method ...</option>
+                                <option value="method1">Method 1</option>
+                                <option value="method2">Method 2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input_field terms">
+                        <label class="check">
+                            <input type="checkbox" id="agree-checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <p>Agreed to Terms & Conditions</p>
+                    </div>
+                    <div class="input_field">
+                        <input id="regisbtn" class="regisbtn" type="submit" onclick="onSubmitClick()" value="Sign Up">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="footer row-flex registFooter">
+        <div class="foot">
+            <a class="footLogo" href="homepage.html">
+                <img src="../assets/img/blueLogo.png">
+            </a>
+        </div>
+        <div class="text">&copy; 2020 A&T Co.</div>
+        <div class="footRight row-flex registFooter">
+            <a class="ig" href="https://www.instagram.com/"></a>
+            <a class="fb" href="https://www.facebook.com/"></a>
+            <a class="tw" href="https://twitter.com/"></a>
+        </div>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,98 @@
+.plansBody {
+    background-color: #2ed3c6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.planTitle {
+    color: white;
+    padding-top: 2em;
+}
+
+.planContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plan {
+    background: white;
+    width: 20em;
+    text-align: center;
+    margin: 1em;
+}
+
+.titleContainer {
+    background-color: #f3f3f3;
+    padding: 1em;
+}
+
+.title {
+    font-size: 1.45em;
+    text-transform: uppercase;
+    color: #1abc9c;
+    font-weight: 700;
+}
+
+.infoContainer {
+    padding: 1em;
+    color: #2d3b48;
+    box-sizing: border-box;
+}
+
+.price {
+    font-size: 1.35em;
+    padding: 1em 0;
+    font-weight: 600;
+    margin-top: 0;
+    display: inline-block;
+    width: 80%;
+}
+
+.price p {
+    font-size: 1.35em;
+    display: inline-block;
+}
+
+.price span {
+    font-size: 1.0125em;
+    display: inline-block;
+}
+
+.desc {
+    padding-bottom: 1em;
+    border-bottom: 2px solid #f3f3f3;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.desc em {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.features {
+    font-size: 1em;
+    list-style: none;
+    padding-left: 0;
+}
+
+.features li {
+    padding: 0.5em;
+}
+
+.selectPlan {
+    border: 2px solid #1abc9c;
+    padding: 0.75em 1em;
+    border-radius: 2.5em;
+    cursor: pointer;
+    transition: all 0.25s;
+    margin: 1em auto;
+    box-sizing: border-box;
+    max-width: 70%;
+    display: block;
+    font-weight: 700;
+}
+
+.selectPlan:hover {
+    background-color: #1abc9c;
+    color: white;
+}

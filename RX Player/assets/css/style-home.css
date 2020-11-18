@@ -1,0 +1,154 @@
+/* MAIN*/
+.main {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mainLeft {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.mainLeft img {
+    width: 100%;
+}
+
+.mainRight {
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    width: 50%;
+}
+
+.mainRight h1 {
+    padding: 1em 0;
+    color: #171d4b;
+}
+
+.mainRight button, .subsBtn{
+    background-color: #171d4b;
+    color: white;
+    transition-duration: 1s;
+}
+
+.mainRight button:hover , .subsBtn:hover{
+    background-color: #2ed3c6;
+}
+
+/* ABOUT */
+.about {
+    justify-content: space-around;
+    background-color: #2ed3c6;
+}
+
+.aboutLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.aboutLogo img {
+    width: 20em;
+}
+
+.aboutDesc {
+    width: 50%;
+    margin: 1em;
+}
+
+.aboutDesc h1 {
+    color: #171d4b;
+}
+
+.aboutDesc p {
+    color: #171d4b;
+    margin-bottom: 1em;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* FEATURE */
+.feature {
+    align-items: center;
+    color: #171d4b;
+}
+
+.featureContent {
+    justify-content: center;
+}
+
+.featureItem {
+    align-items: center;
+    padding: 1em 2em;
+    width: 30%;
+}
+
+.featureImg {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.featureDesc {
+    padding-bottom: 1em;
+}
+
+/* PROMOTION */
+.promotion {
+    align-items: center;
+    background-color: #171d4b;
+    color: white;
+}
+
+.arrowBtn img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.promotionContent {
+    position: relative;
+    width: 590px;
+    height: 300px;
+}
+
+.sliderContainer {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 45px;
+}
+
+.sliderImg {
+    display: inline-block;
+    width: 2500px;
+    height: 300px;
+}
+
+.slide {
+    float: left;
+    list-style-type: none;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+/* SUBSCRIBE */
+.subscribe {
+    align-items: center;
+    background-color: #1e1e2c;
+}
+
+.subscribe h1 {
+    color: white;
+}
+
+input[type=text] {
+    padding: 1em 2em;
+    margin: 1em 0;
+    border: 1px solid #2ed3c6;
+    border-radius: 1em;
+}
